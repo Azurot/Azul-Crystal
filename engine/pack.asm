@@ -110,7 +110,7 @@ Pack: ; 10000
 	call .ItemBallsKey_LoadSubmenu
 	ret
 
- .InitBallsPocket: ; 10186 (4:4186)
+.InitBallsPocket: ; 10186 (4:4186)
  	ld a, BALL - 1
  	ld [wCurrPocket], a
  	call ClearPocketList
@@ -119,7 +119,7 @@ Pack: ; 10000
  	call Pack_JumptableNext
  	ret
  
- .BallsPocketMenu: ; 10198 (4:4198)
+.BallsPocketMenu: ; 10198 (4:4198)
  	ld hl, BallsPocketMenuDataHeader
  	call CopyMenuDataHeader
  	ld a, [wBallsPocketCursor]

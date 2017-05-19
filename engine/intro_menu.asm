@@ -157,7 +157,7 @@ _ResetWRAM: ; 5bae
 	ld hl, NumItems
 	call .InitList
 
-	ld hl, NumMedice
+	ld hl, NumMedicine
 	call .InitList
 
 	ld hl, NumBalls

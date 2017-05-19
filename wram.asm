@@ -2488,7 +2488,7 @@ Items:: ; d893
 	ds MAX_ITEMS * 2 + 1
 ItemsEnd::
 
-NumMedicineItems:: ; d8bc
+NumMedicine:: ; d8bc
 	ds 1
 Medicine:: ; d8bd
 	ds MAX_MEDICINE * 2 + 1

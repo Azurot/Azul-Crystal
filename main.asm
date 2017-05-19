@@ -1950,7 +1950,7 @@ SECTION "Crystal Unique", ROMX, BANK[$12]
 
 INCLUDE "engine/init_gender.asm"
 
-PackFGFX:
+PackGFX:
 INCBIN "gfx/misc/pack.2bpp"
 PackFGFX: ; 48e9b
 INCBIN "gfx/misc/pack_f.2bpp"

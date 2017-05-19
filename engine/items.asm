@@ -34,7 +34,7 @@ _ReceiveItem:: ; d1d5
 
 .KeyItem:
 	ld hl, NumKeyItems
-	jp RecieveKeyItem
+	jp ReceiveKeyItem
 
 .TMHM: ; d201
 	ld h, d
