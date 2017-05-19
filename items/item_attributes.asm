@@ -526,7 +526,7 @@ Item2Attributes:
 	item_attribute  2100, 0,                 0,             CANT_SELECT, ITEM,     ITEMMENU_NOUSE,   ITEMMENU_NOUSE
 
 ; BERRY
-	item_attribute    10, HELD_BERRY,          10,             CANT_SELECT, ITEM,     ITEMMENU_PARTY,   ITEMMENU_PARTY
+	item_attribute    10, HELD_BERRY,          10,             CANT_SELECT, BERRIES,     ITEMMENU_PARTY,   ITEMMENU_PARTY
 
 ; GOLD BERRY
 	item_attribute    10, HELD_BERRY,          30,             CANT_SELECT, BERRIES,     ITEMMENU_PARTY,   ITEMMENU_PARTY
