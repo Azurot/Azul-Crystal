@@ -22,7 +22,7 @@ _ReceiveItem:: ; d1d5
 
 .Medicine: ; d1f6
 	ld hl, NumMedicine
-	jp ReceiveKeyItem
+	jp PutItemInPocket
 
 .Ball: ; d1fb
 	ld hl, NumBalls
